@@ -1,0 +1,49 @@
+{
+  "name": "pvl-react-modal",
+  "version": "1.0.0",
+  "description": "A simple modal designed for React (and OC's Project 14).",
+  "main": "./dist/index.js",
+  "peerDependencies": {
+    "react": "^18.x"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PVL-dev/pvl-react-modal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PVL-dev/pvl-react-modal/issues"
+  },
+  "homepage": "https://github.com/PVL-dev/pvl-react-modal#readme",
+  "keywords": [
+    "React",
+    "Modal"
+  ],
+  "author": "PVL-Dev",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@svgr/webpack": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.5",
+    "react": "^18.2.0",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "style-loader": "^3.3.2"
+  }
+}

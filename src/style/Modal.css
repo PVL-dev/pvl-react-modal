@@ -1,0 +1,49 @@
+.modal__global-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    width: 40%;
+    height: fit-content;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    border-radius: 14px;
+}
+
+.modal-closeBtn {
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+    padding: 0;
+
+    align-self: flex-end;
+
+    cursor: pointer;
+}
+
+.modal-closeBtn > svg {
+    width: 30px;
+    height: 30px;
+}
+
+.modal-content {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
